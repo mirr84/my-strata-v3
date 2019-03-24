@@ -4,6 +4,7 @@ import {getStorage} from "../utils/getStorage";
 const initState = {
 
     isProgressGetAll: false,
+    isProgressCreate: false,
 
     items: []
 

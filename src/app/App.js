@@ -13,6 +13,7 @@ import Home from "../home/home";
 import Profile from "../profile/profile";
 import Resources from "../resources/resources";
 import Bilds from "../bilds/bilds";
+import BildsId from "../bilds/bildsId";
 
 import LocationListener from "../routes/LocationListener";
 import {Card, Col, Row} from "antd";
@@ -67,6 +68,7 @@ const App = ({state, dispatch}) =>
                                 <Private exact={true} path="/resources/:id" component={Resources}/>
 
                                 <Private exact={true} path="/bilds" component={Bilds}/>
+                                <Private exact={true} path="/bilds/:id" component={BildsId}/>
 
                                 <Public exact={true} component={Page404}/>
                             </Switch>

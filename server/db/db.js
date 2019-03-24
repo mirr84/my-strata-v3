@@ -1,10 +1,10 @@
 const mysql = require('promise-mysql');
 
 const config = {
-    host: '127.0.0.1',
-    user: 'root',
-    password: '',
-    database: 'my-strata-v3'
+    host: 'y913929d.beget.tech',
+    user: 'y913929d_stra_v3',
+    password: '8fHBGdDQ',
+    database: 'y913929d_stra_v3'
 }
 
 const connector = () =>

@@ -11,6 +11,7 @@ const init = (app) => {
         {url: '/resources/get', method: 'get', type: 'private'},
 
         {url: '/bilds/getAll', method: 'get', type: 'private'},
+        {url: '/bilds/create', method: 'get', type: 'private'},
 
     ]
 
